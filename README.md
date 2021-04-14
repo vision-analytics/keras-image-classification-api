@@ -2,7 +2,7 @@
 
 ## Serve your image classification model with Flask/Gunicorn (KERAS)
 
-### Keras -the high-level API of TensorFlow- is powerful and easy to use library for developing deep learning models. We will create an API to classify images and we assume that our model is trained and ready-to-use.
+### Keras -the high-level API of TensorFlow- is powerful and easy to use library for developing deep learning models. We assume that our model is trained and ready-to-use for this project. We just create an API to classify images.
 
 # &nbsp;
 
