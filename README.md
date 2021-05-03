@@ -23,8 +23,8 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
 
 ```bash
-python3 -m venv test-env
-source test-env/bin/activate
+python3 -m venv test-env #create new environment
+source test-env/bin/activate #activate environment
 pip3 install -r requirements.txt
 ```
 
