@@ -18,12 +18,15 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
 
 ```bash
+python3 -m venv test-env
+source test-env/bin/activate
 pip3 install -r requirements.txt
 ```
 
 ## Usage
 ### Run 
 ```
+export CONFIG_PATH=app-data/config/config.ini
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
 
